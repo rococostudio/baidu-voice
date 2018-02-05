@@ -4,9 +4,9 @@
 ## 下载安装
 
 ```
-git clone https://github.com/dreamans/baidu-voice.git
-cd baidu-voice/src
-npm install
+$ git clone https://github.com/dreamans/baidu-voice.git
+$ cd baidu-voice/src
+$ npm install
 ```
 
 修改 src/config.js 中配置文件
@@ -24,7 +24,7 @@ npm install
 ## 运行
 
 ```
-npm run web
+$ npm run web
 ```
 
 输入网址
@@ -38,5 +38,7 @@ http://127.0.0.1:8068/?speech=你好&per=1&spd=1&pit=1&vol=1
 * pit - 音调，取值0-9， 默认为5中语调
 * vol - 音量，取值0-15，默认为5中音量
 
-请求返回的数据类型为 audio/mpeg 在浏览器中即可收听
+请求返回的数据类型为 `audio/mpeg` 在浏览器中即可收听
+
+若有报错，可在 src/nohup.out 中查看
 

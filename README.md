@@ -9,7 +9,7 @@ $ cd baidu-voice/src
 $ npm install
 ```
 
-修改 src/config.js 中配置文件, 代码中的账号信息为个人测试使用，请勿在生产环境中部署，申请appid等请访问 http://ai.baidu.com/
+修改 src/config.js 中配置文件
 
 ```
     app_id: '', // 百度API appid 
@@ -20,6 +20,7 @@ $ npm install
 
     port: 8068 // http服务端口
 ```
+**代码中的账号信息为个人测试使用，请勿在生产环境中部署，申请appid等请访问 http://ai.baidu.com/**
 
 ## 运行
 
